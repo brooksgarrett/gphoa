@@ -3,20 +3,32 @@
 - title: Home
   url: '/index.html'
   excerpt: 'Learn all about what Grove Pointe has to offer.'
-  image:
+  dropdown: false
 - title: Amenities
   url: '/amenities/'
   excerpt: 'Learn all about what Grove Pointe has to offer.'
-  image:
-  - title: Park
-    url: '/amenities/park.html'
-  - title: Pool
-    url: '/amenities/pool.html'
+  dropdown: true
+  children:
+    - title: Park
+      url: '/amenities/park.html'
+      excerpt: 'The Grove Pointe Park.'
+    - title: Pavillion
+      url: '/amenities/pavillion.html'
+      excerpt: 'The Grove Pointe Pavillion.'
+    - title: Track
+      url: '/amenities/track.html'
+      excerpt: 'The Grove Pointe Track.'
+    - title: Dog Park
+      url: '/amenities/dogpark.html'
+      excerpt: 'The Grove Pointe Dog Park.'
+    - title: Pool
+      url: '/amenities/pool.html'
+      excerpt: 'The Grove Pointe Pool.'
 - title: Contact Us
   url: '/contact/'
   excerpt: 'Impotant names, numbers, and email addresses.'
-  image:
+  dropdown: false
 - title: Documents
   url: '/documents/'
   excerpt: 'Important documents including reports and covenants.'
-  image:
+  dropdown: false

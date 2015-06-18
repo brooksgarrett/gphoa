@@ -1,5 +1,5 @@
 <div class="brand">{{ site.title }}</div>
-<div class="address-bar">Hahira, GA</div>
+<div class="address-bar">{{ site.data.identity.tagline }}</div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
@@ -13,7 +13,7 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="index.html">Business Casual</a>
+            <a class="navbar-brand" href="index.html">{{ site.title }}</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -24,9 +24,23 @@
                 {% else %}
                   {% assign domain = site.url %}
                 {% endif %}
+                {% if link.dropdown %}
+                <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="{{ link.excerpt }}">
+                    {{ link.title }} <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    {% for child in link.children %}
+                    <li>
+                        <a href="{{ domain }}{{ child.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %} title="{{ child.excerpt }}">{{ child.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                </li>
+                {% else %}
                 <li>
                   <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %} title="{{ link.excerpt }}">{{ link.title }}</a>
                 </li>
+                {% endif %}
               {% endfor %}
             </ul>
         </div>
