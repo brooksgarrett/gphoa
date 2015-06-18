@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: Home
+  url: '/index.html'
+  excerpt: 'Learn all about what Grove Pointe has to offer.'
+  image:
+- title: Amenities
+  url: '/amenities/'
+  excerpt: 'Learn all about what Grove Pointe has to offer.'
+  image:
+  - title: Park
+    url: '/amenities/park.html'
+  - title: Pool
+    url: '/amenities/pool.html'
+- title: Contact Us
+  url: '/contact/'
+  excerpt: 'Impotant names, numbers, and email addresses.'
+  image:
+- title: Documents
+  url: '/documents/'
+  excerpt: 'Important documents including reports and covenants.'
+  image:
