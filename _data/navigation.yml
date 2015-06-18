@@ -25,7 +25,7 @@
       url: '/amenities/pool.html'
       excerpt: 'The Grove Pointe Pool.'
 - title: Contact Us
-  url: '/contact/'
+  url: '/contact.html'
   excerpt: 'Impotant names, numbers, and email addresses.'
   dropdown: false
 - title: Documents
