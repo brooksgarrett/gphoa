@@ -5,6 +5,9 @@ gem 'jekyll-sitemap', '~> 0.6.1'
 gem 'jekyll-minifier'
 gem 'jekyll-compass'
 gem 'bootstrap-sass'
+gem 'jekyll-assets'
+gem 'sprockets-sass'
+gem 'sprockets-helpers'
 
 #
 # Additional gems for jekyll-minifier
