@@ -7,7 +7,7 @@ layout: default
         <div class="col-lg-12">
             <hr>
             <h2 class="intro-text text-center">About
-                <strong>our HOA</strong>
+                <strong>our Community</strong>
             </h2>
             <hr>
         </div>
@@ -15,7 +15,7 @@ layout: default
             <img class="img-responsive img-border-left" src="{% asset_path entrance.jpg %}" alt="">
         </div>
         <div class="col-md-6">
-            <p>Step back in time as you enter the gates of one of Valdosta’s most sought-after communities,
+            <p>Step back in time as you enter into of one of Valdosta’s most sought-after communities,
               Grove Pointe. The character and detail of this high-end residential community focuses on classic
               traditional architecture. Set on a breathtaking site, Grove Pointe offers beautifully preserved
               Spanish Moss draped Live Oaks. These large estate homes sites are the perfect place to build your
@@ -24,25 +24,22 @@ layout: default
         <div class="clearfix"></div>
     </div>
 </div>
+{% for post in site.tags.frontpage limit:3  %}
 <div class="row">
     <div class="box">
         <div class="col-lg-12">
             <hr>
-            <h2 class="intro-text text-center">About
-                <strong>our neigborhood</strong>
-            </h2>
+            <h2 class="intro-text text-center">{{ post.title }}</h2>
             <hr>
         </div>
-        <div class="col-md-6">
-            <img class="img-responsive img-border-left" src="{% asset_path entrance.jpg %}" alt="">
+        <div class="col-md-4">
+            <img class="img-responsive img-border-left" src="{{ post.image | asset_path }}" alt="">
         </div>
-        <div class="col-md-6">
-            <p>Step back in time as you enter the gates of one of Valdosta’s most sought-after communities,
-              Grove Pointe. The character and detail of this high-end residential community focuses on classic
-              traditional architecture. Set on a breathtaking site, Grove Pointe offers beautifully preserved
-              Spanish Moss draped Live Oaks. These large estate homes sites are the perfect place to build your
-              dream home and to find peace and quiet with complete privacy.</p>
+        <div class="col-md-8">
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+            <p><a href="{{ post.url }}">Full article</a>
         </div>
         <div class="clearfix"></div>
     </div>
 </div>
+{% endfor %}
