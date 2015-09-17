@@ -15,12 +15,12 @@
     - title: Pavillion
       url: '/amenities/pavillion.html'
       excerpt: 'The Grove Pointe Pavillion.'
-    - title: Track
-      url: '/amenities/track.html'
-      excerpt: 'The Grove Pointe Track.'
-    - title: Dog Park
-      url: '/amenities/dogpark.html'
-      excerpt: 'The Grove Pointe Dog Park.'
+#    - title: Track
+#      url: '/amenities/track.html'
+#      excerpt: 'The Grove Pointe Track.'
+#    - title: Dog Park
+#      url: '/amenities/dogpark.html'
+#      excerpt: 'The Grove Pointe Dog Park.'
     - title: Pool
       url: '/amenities/pool.html'
       excerpt: 'The Grove Pointe Pool.'
@@ -31,4 +31,14 @@
 - title: Documents
   url: '/documents/'
   excerpt: 'Important documents including reports and covenants.'
-  dropdown: false
+  dropdown: true
+  children:
+    - title: Covenants
+      url: '/documents/files/Restrictive-Covenants.pdf'
+      excerpt: 'Download our covenants.'
+    - title: Meeting Minutes
+      url: '/documents/minutes.html'
+      excerpt: 'Official minutes from HOA meetings.'
+    - title: Pool Forms
+      url: '/documents/pool.html'
+      excerpt: 'Forms and FAQs about the pool.'
