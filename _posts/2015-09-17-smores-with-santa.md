@@ -6,6 +6,7 @@ tags: [event,frontpage]
 status: published
 type: article
 published: true
+image: smores.jpg
 meta:
   _edit_last: '1'
 
