@@ -1,0 +1,15 @@
+---
+title: "Fall Yard Sale 2015"
+layout: article
+categories: [articles]
+tags: [event,frontpage]
+status: published
+type: article
+published: true
+image: YardSale.jpg
+meta:
+  _edit_last: '1'
+
+---
+
+Our Fall Yard Sale will be on 3 October, 2015 from 09:00 AM until 12:00 PM.
