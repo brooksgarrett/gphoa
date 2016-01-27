@@ -6,8 +6,10 @@ gem 'jekyll-minifier'
 gem 'jekyll-compass'
 gem 'bootstrap-sass'
 gem 'jekyll-assets'
+gem 'bootstrap-sass'
 gem 'sprockets-sass'
 gem 'sprockets-helpers'
+gem 'therubyracer'
 
 #
 # Additional gems for jekyll-minifier
