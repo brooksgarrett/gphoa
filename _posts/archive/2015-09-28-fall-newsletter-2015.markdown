@@ -2,7 +2,7 @@
 title: "Fall Newsletter 2015"
 layout: article
 categories: [articles]
-tags: [event,frontpage]
+tags: [event,archive]
 status: published
 type: article
 published: true

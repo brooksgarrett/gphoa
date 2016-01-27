@@ -2,7 +2,7 @@
 layout: article
 title: Last Pool Signup for Summer
 categories: [articles]
-tags: [frontpage]
+tags: [archive]
 status: published
 type: article
 published: true

@@ -3,7 +3,7 @@ title: "Break-in on Planters"
 date: "2015-10-13 16:23"
 layout: article
 categories: [articles]
-tags: [alert,frontpage]
+tags: [alert,archive]
 status: published
 type: article
 published: true

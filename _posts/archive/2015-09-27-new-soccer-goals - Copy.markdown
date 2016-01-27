@@ -2,7 +2,7 @@
 title: "New Soccer Goals at the Park"
 layout: article
 categories: [articles]
-tags: [event,frontpage]
+tags: [event,archive]
 status: published
 type: article
 published: true

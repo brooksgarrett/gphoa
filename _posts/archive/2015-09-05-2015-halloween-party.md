@@ -2,7 +2,7 @@
 layout: article
 title: 2015 Halloween Party
 categories: [articles]
-tags: [frontpage]
+tags: [archive]
 status: published
 type: article
 published: true
